@@ -1,0 +1,11 @@
+
+<div class="app-card">
+  
+    <div class="card" >
+        <img [src]="productsCard.photo" alt="photohere" class="product-img">
+        <h2 class="product-name">{{productsCard.name}}</h2>
+        <div class="btn-div">
+            <a  [routerLink]="['/details', productsCard.id]" class="btn"> Details>></a>
+        </div>
+    </div>
+</div>

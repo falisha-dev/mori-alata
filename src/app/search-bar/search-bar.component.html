@@ -1,0 +1,16 @@
+<div class="search-container">
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Search Product" class="input">
+    
+    <button (click)="search()" class="search-btn">
+        <img src="assets\images\magnifying-glass.png" alt="icon here" class="search-icon">
+
+     </button>
+     
+</div>
+   
+
+<!-- <div *ngIf="searchTerm && searchResults.length > 0">
+    <ul>
+        <li *ngFor="let result of searchResults">{{ result }}</li>
+    </ul>
+</div> -->

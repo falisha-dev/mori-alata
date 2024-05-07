@@ -1,0 +1,38 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;  
+    border: 1px solid #FFB534; /* Border style */
+    font-size: 16px;
+    width: 35%;
+    height: 7hv;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-bottom: 4rem;
+    
+    
+    
+}
+.input{
+    cursor: pointer;  
+  border-radius: 20px; 
+   outline: none;
+   border: none;
+   background: none;
+    font-size: 1em;
+
+    
+}
+.search-btn{
+    background: none;
+    border: none;
+    
+    padding: 15px 0 15px 0;
+    text-align: center;
+    text-decoration: none;
+   
+    
+}
+.search-icon{
+    height: 1.4rem;
+}

@@ -1,0 +1,22 @@
+
+    <div class="header-nav">
+       <div> <app-navbar></app-navbar></div>
+
+        <div class="cart">
+            <img src="assets/images/carts.png" alt="images" class="cart-icon">
+            </div>
+    </div>
+
+<div class="check-out">
+    <div class="check-outImg">
+        <img class="img" [src]="productsCard?.photo" alt="product images">
+    </div>
+
+    <div class="product-details">
+        <h2 class="details-h2">{{productsCard?.name}}</h2>
+        <p class="details-p">{{productsCard?.info}}</p>
+        <h1 class="price-h2">${{productsCard?.price}}</h1>
+
+        <button class="btn">Add to Cart</button>
+    </div>
+</div>

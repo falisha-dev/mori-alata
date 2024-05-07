@@ -1,0 +1,28 @@
+.nav-div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+   justify-content: space-between;
+   background-color: #627254;
+}
+.navs{
+
+    display: flex;
+   margin-right: 2%;
+   margin-top:2% ;
+}
+.nav-list{
+   list-style: none;
+   padding: 0.5rem;
+   color: white;
+   font-style: bold;
+   
+}
+.icon{
+    margin-left:2% ;
+}
+.img-icon{
+    height: 4.5rem;
+    width: 4.5rem;
+    padding: 10px 0 0 0 ;
+}
